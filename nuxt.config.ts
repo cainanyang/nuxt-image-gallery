@@ -24,5 +24,10 @@ export default defineNuxtConfig({
         commaDangle: 'never'
       }
     }
+  },
+  nitro: {
+    experimental: {
+      openAPI: true
+    }
   }
 })
